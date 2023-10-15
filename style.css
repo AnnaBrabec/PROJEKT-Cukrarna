@@ -50,6 +50,9 @@ p {
 	font-size: 18px;
 	color: #242424;
 }
+img {
+	border-radius: 5px;
+}
 header {
 	display: flex;
 	justify-content: space-between;
@@ -94,7 +97,7 @@ header {
 }
 .hero .inside {
 	padding: 80px 0;
-	flex-direction: column ;
+	flex-direction: column;
 }
 .hero h1 {
 	font-size: 54px;
@@ -112,11 +115,35 @@ header {
 }
 .welcome a {
 	text-decoration: none;
-	color:#242424;
+	color:white;
 	background-color: #f195b2;
 	padding: 15px 40px;
 	border-radius: 30px;
+	display: inline-block;
+	margin-top: 30px;
 }
 .welcome a:hover {
 	background-color: #d2567d;
+}
+.left {
+	margin-right: 30px;
+}
+.offer {
+	background-color: #f0f0f0;
+	flex-direction: column;
+	padding: 80px;
+}
+.offer h2,
+.offer p {
+	max-width: 1100px;
+	margin: auto;
+}
+.produkt {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px;
+	background-color: white;
+	border-radius: 5px;
+	max-width: 255px;
+	
 }
